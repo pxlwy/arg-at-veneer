@@ -522,21 +522,21 @@ var parallelism = (function($) { var _ = {
 					});
 
 				// Poptrox.
-					_.objects.reel.poptrox({
-						onPopupClose: (_.settings.useBlurFilter ? (function() { _.objects.wrapper.removeClass('overlayed'); }) : null),
-						onPopupOpen: (_.settings.useBlurFilter ? (function() { _.objects.wrapper.addClass('overlayed'); }) : null),
-						overlayColor: _.settings.popupOverlayColor,
-						overlayOpacity: _.settings.popupOverlayOpacity,
-						popupSpeed: 0,
-						selector: '.thumb a.image',
-						useBodyOverflow: false,
-						usePopupCaption: false,
-						usePopupCloser: false,
-						usePopupDefaultStyling: false,
-						usePopupLoader: false,
-						usePopupNav: false,
-						windowMargin: 0
-					});
+//					_.objects.reel.poptrox({
+//						onPopupClose: (_.settings.useBlurFilter ? (function() { _.objects.wrapper.removeClass('overlayed'); }) : null),
+//						onPopupOpen: (_.settings.useBlurFilter ? (function() { _.objects.wrapper.addClass('overlayed'); }) : null),
+//						overlayColor: _.settings.popupOverlayColor,
+//						overlayOpacity: _.settings.popupOverlayOpacity,
+//						popupSpeed: 0,
+//						selector: '.thumb a.image',
+//						useBodyOverflow: false,
+//						usePopupCaption: false,
+//						usePopupCloser: false,
+//						usePopupDefaultStyling: false,
+//						usePopupLoader: false,
+//						usePopupNav: false,
+//						windowMargin: 0
+//					});
 
 			},
 
